@@ -2,7 +2,7 @@
   "name": "kintsufit",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://StefiLeon.github.io/kintsufit",
+  "homepage": "https://stefileon.github.io/kintsufit",
   "dependencies": {
     "cra-template": "1.2.0",
     "font-awesome": "^4.7.0",
