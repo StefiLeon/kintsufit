@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kintsufit/static/css/main.e83acd12.css",
+    "main.js": "/kintsufit/static/js/main.0b0c285e.js",
+    "index.html": "/kintsufit/index.html",
+    "main.e83acd12.css.map": "/kintsufit/static/css/main.e83acd12.css.map",
+    "main.0b0c285e.js.map": "/kintsufit/static/js/main.0b0c285e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e83acd12.css",
+    "static/js/main.0b0c285e.js"
+  ]
+}
