@@ -1,0 +1,98 @@
+/* General Section Styles */
+.book-now {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+  gap: 20px;
+  background-color: var(--meat-brown);
+  color: var(--snow-white);
+}
+
+.book-now-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-variant: small-caps;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.calendar-icon {
+  font-size: 2.5rem;
+  animation: bounce 1s ease infinite;
+  gap: 10px;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Programs Container */
+
+.programs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+.service-column {
+  background-color: var(--snow-white);
+  color: var(--ultramarine);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Button Styles */
+.more-info-btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: var(--meat-brown);
+  color: var(--snow-white);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+/* Web View: Horizontal Layout */
+@media (min-width: 768px) {
+  .book-now {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+  }
+
+  .programs-container {
+    flex-direction: row;
+  }
+
+  .service-column {
+    flex: 1 1 calc(25% - 20px);
+    max-width: 25%;
+    text-align: center;
+    position: relative;
+  }
+
+  .service-column:not(:last-child) {
+    border-bottom: none;
+  }
+}
